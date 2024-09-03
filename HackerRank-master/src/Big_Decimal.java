@@ -5,11 +5,11 @@ public class Big_Decimal {
 
     public static void main(String []args){
         //Input
-        Scanner sc= new Scanner(System.in);
-        int n=sc.nextInt();
-        String []s=new String[n+2];
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        String []s = new String[n+2];
         for(int i=0;i<n;i++){
-            s[i]=sc.next();
+            s[i] = sc.next();
         }
         sc.close();
 
@@ -18,8 +18,8 @@ public class Big_Decimal {
 
             @Override
             public int compare(String o1, String o2) {
-                BigDecimal a=new BigDecimal(o1);
-                BigDecimal b=new BigDecimal(o2);
+                BigDecimal a = new BigDecimal(o1);
+                BigDecimal b = new BigDecimal(o2);
                 return b.compareTo(a);
             }
         };
