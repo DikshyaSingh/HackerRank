@@ -5,13 +5,13 @@ import java.util.*;
 
 class BiCycle{
     String define_me(){
-        return "a vehicle with pedals.";
+        return "A vehicle with pedals.";
     }
 }
 
 class MotorCycle extends BiCycle{
     String define_me(){
-        return "a cycle with an engine.";
+        return "A cycle with an Engine.";
     }
 
     MotorCycle(){
