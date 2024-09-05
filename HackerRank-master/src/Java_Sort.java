@@ -8,8 +8,8 @@ class Student{
     public Student(int id, String fname, double cgpa) {
         super();
         this.id = id;
-        this.fname = fname;
-        this.cgpa = cgpa;
+        this.fname =fname;
+        this.cgpa =cgpa;
     }
 
     public String getFname() {
@@ -41,7 +41,7 @@ public class Java_Sort
         Collections.sort(studentList, Comparator.comparing(Student::getCgpa).reversed().thenComparing(Student::getFname));
 
 
-        for(Student st: studentList){
+        for(Student st:studentList){
             System.out.println(st.getFname());
         }
     }
