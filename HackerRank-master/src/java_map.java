@@ -15,13 +15,13 @@ public class java_map {
         for(int i=0;i<n;i++)
         {
             String name=in.nextLine();
-            int phone=in.nextInt();
+            int phone = in.nextInt();
             phonebook.put(name, phone);
             in.nextLine();
         }
         while(in.hasNext())
         {
-            String s=in.nextLine();
+            String s = in.nextLine();
             if (phonebook.containsKey(s))
                 System.out.println(s + "=" + phonebook.get(s));
             else
