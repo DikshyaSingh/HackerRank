@@ -12,12 +12,12 @@ public class java_list  {
         Scanner scan = new Scanner(System.in);
         List<Integer> intlist = new ArrayList<>();
         int n = scan.nextInt();
-        for(int i =0;i<n;i++){
+        for(int i = 0;i<n;i++){
             int elem=scan.nextInt();
             intlist.add(elem);
         }
         n=scan.nextInt();
-        for(int i=0;i<n;i++){
+        for(int i = 0;i<n;i++){
             if(scan.next().equals("Insert"))
                 intlist.add(scan.nextInt(),scan.nextInt());
             else
