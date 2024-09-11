@@ -9,10 +9,10 @@ public class java_list  {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-        Scanner scan =new Scanner(System.in);
-        List<Integer> intlist=new ArrayList<>();
-        int n =scan.nextInt();
-        for(int i=0;i<n;i++){
+        Scanner scan = new Scanner(System.in);
+        List<Integer> intlist = new ArrayList<>();
+        int n = scan.nextInt();
+        for(int i =0;i<n;i++){
             int elem=scan.nextInt();
             intlist.add(elem);
         }
