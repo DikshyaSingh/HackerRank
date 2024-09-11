@@ -10,11 +10,11 @@ public class java_map {
 
         Map<String,Integer> phonebook=new HashMap<>();
 
-        int n=in.nextInt();
+        int n = in.nextInt();
         in.nextLine();
         for(int i=0;i<n;i++)
         {
-            String name=in.nextLine();
+            String name = in.nextLine();
             int phone = in.nextInt();
             phonebook.put(name, phone);
             in.nextLine();
