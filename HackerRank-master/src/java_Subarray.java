@@ -10,9 +10,9 @@ public class java_Subarray  {
 
 
         Scanner in = new Scanner(System.in);
-        int size =in.nextInt();
+        int size = in.nextInt();
         int[] arr = new int[size];
-        int[][] arrM =new int[size][size];
+        int[][] arrM = new int[size][size];
         int count = 0;
         for(int i=0;i<size;i++){
             arr[i] = in.nextInt();
