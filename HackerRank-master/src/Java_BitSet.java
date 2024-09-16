@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Java_BitSet {
    public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int m = sc.nextInt();
+    int n =sc.nextInt();
+    int m =sc.nextInt();
     BitSet[] bits = {new BitSet(n), new BitSet(n)};
 
         for (int i = 0; i < m; i++) {
