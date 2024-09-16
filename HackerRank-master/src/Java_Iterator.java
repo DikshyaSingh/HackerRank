@@ -3,9 +3,9 @@ import java.util.*;
 public class Java_Iterator {
 
     static Iterator func(ArrayList mylist){
-        Iterator it=mylist.iterator();
+        Iterator itv=vmylist.iterator();
         while(it.hasNext()){
-            Object element =it.next();
+            Object element = it.next();
             if(element instanceof String)
                 break;
         }
@@ -18,12 +18,12 @@ public class Java_Iterator {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
-        for(int i = 0;i<n;i++){
+        for(int i = 0; i<n; i++){
             mylist.add(sc.nextInt());
         }
 
         mylist.add("###");
-        for(int i=0;i<m;i++){
+        for(int i=0; i<m; i++){
             mylist.add(sc.next());
         }
 
