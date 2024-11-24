@@ -42,7 +42,9 @@ class Priorities {
         events.forEach((event) -> {
             if (event.equals("SERVED")) {
                 queue.poll();
-            } else {
+            } 
+            else
+            {
                 String[] details = event.split(" ");
 
                 queue.add(new student(Integer.parseInt(details[3]), details[1], Double.parseDouble(details[2])));
