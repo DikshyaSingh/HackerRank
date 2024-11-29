@@ -6,7 +6,7 @@ import java.util.*;
 public class Java_Hashset {
 
         public static void main(String[] args) {
-            Scanner s = new Scanner(System.in);
+            Scanner s =new Scanner(System.in);
             int t = s.nextInt();
             s.close();
             String [] pair_left = new String[t];
