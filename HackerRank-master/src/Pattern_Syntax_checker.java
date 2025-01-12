@@ -8,7 +8,7 @@ public class Pattern_Syntax_checker {
         int testCases = Integer.parseInt(in.nextLine());
         while(testCases>0){
             String pattern = in.nextLine();
-            //Write your code
+            
             try{
                 Pattern.compile(pattern);
                 System.out.println("Valid");
