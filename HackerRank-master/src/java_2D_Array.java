@@ -34,6 +34,5 @@ public class java_2D_Array  {
         System.out.println(sum);
 
         bufferedReader.close();
-    }
-}
+    }}
 
