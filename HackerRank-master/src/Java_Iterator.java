@@ -27,6 +27,7 @@ public class Java_Iterator {
             mylist.add(sc.next());
         }
 
+        
         Iterator it=func(mylist);
         while(it.hasNext()){
             Object element = it.next();
