@@ -18,7 +18,6 @@ public class java_Arraylist {
             }
             lines.add(line);
         }
-
         int q = in.nextInt();
         for (int i = 0; i < q; i++) {
             int x = in.nextInt();
