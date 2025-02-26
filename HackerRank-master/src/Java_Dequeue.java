@@ -19,7 +19,6 @@
             if (deque.size() == m) {
                 if (set.size() > max)
                     max = set.size();
-
                 int first = (int) deque.remove();
                 if (!deque.contains(first))
                     set.remove(first);
