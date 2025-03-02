@@ -10,7 +10,8 @@ public class java_String_Tokens {
         // Write your code here.
         if(s.trim().length() == 0){
             System.out.println(0);
-        }else{
+        }
+        else{
             String[] result = s.trim().split("[ .,?!'@_]+");
 
             System.out.println(result.length);
