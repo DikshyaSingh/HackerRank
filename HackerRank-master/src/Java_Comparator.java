@@ -8,7 +8,6 @@ class Checker implements Comparator<Player> {
         return p1.score != p2.score ? (p2.score - p1.score) : p1.name.compareTo(p2.name);
     }
 }
-
 class Player{
     String name;
     int score;
