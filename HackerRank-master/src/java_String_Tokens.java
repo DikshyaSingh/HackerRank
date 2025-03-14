@@ -18,7 +18,6 @@ public class java_String_Tokens {
             for (String token : result)
                 System.out.println(token);
         }
-
         scan.close();
     }
 }
