@@ -9,6 +9,7 @@ public class java_currency_formatterr  {
         double payment = scanner.nextDouble();
         scanner.close();
 
+            
         String us=NumberFormat.getCurrencyInstance(Locale.US).format(payment);
         String india=NumberFormat.getCurrencyInstance(new Locale("en","IN")).format(payment);
         String china=NumberFormat.getCurrencyInstance(Locale.CHINA).format(payment);
